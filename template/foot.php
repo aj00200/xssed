@@ -1,0 +1,2 @@
+echo(' </body>');
+echo('</html>');
