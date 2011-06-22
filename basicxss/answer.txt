@@ -1,0 +1,1 @@
+?q=<script>alert('hi')%3B<%2Fscript>
