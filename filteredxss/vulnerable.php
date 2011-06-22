@@ -10,7 +10,7 @@ print <<<END
 
 <script type="text/javascript">
 var q = "$id";
-document.write(q);
+document.write("<!-- " + q + "-->");
 </script>
 END;
 
