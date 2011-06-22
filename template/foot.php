@@ -1,4 +1,7 @@
 <?php
-echo(' </body>');
-echo('</html>');
+print <<<END
+
+ </body>
+</html>
+END;
 ?>

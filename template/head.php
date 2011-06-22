@@ -1,9 +1,11 @@
 <?php
-echo('<!DOCTYPE html>');
-echo('<html>');
-echo(' <head>');
-echo('  <link rel="stylesheet" href="../global.css" type="text/css" />');
-echo('  <title>XSSed</title>');
-echo(' </head>');
-echo(' <body>');
+print <<<END
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="stylesheet" href="../global.css" type="text/css" />
+  <title>XSSed</title>
+ </head>
+ <body>
+END;
 ?>
