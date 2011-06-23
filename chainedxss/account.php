@@ -1,6 +1,6 @@
 <?php
 require('../template/head.php');
-$user = $_GET['uesr'];
+$user = $_GET['user'];
 
 print <<<END
  <a href="index.htm">Return Home</a>

