@@ -1,2 +1,6 @@
 body {background: black; color: limegreen; text-shadow: 0 0 5px;}
 a {color: limegreen;}
+ul {padding-left: 25px;}
+
+#main {width: 80%; float: left;}
+#side {width: 19%; float: right;}

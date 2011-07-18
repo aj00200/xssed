@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <pre>
-##\   ##\  ######\   ######\                  &$\                               &$\     &$\                     
-## |  ## |##  __##\ ##  __##\                 $$ | Version 0.3.1 - by AJ00200  $$ |    \__| GNU GPL v3         
-\##\ ##  |## /  \__|## /  \__| &$$$$$\   &$$$$$$ |&$\   &$\  &$$$$$$\ &$$$$$\ &$$$$$\   &$\  &$$$$$\  &$$$$$$\  
- \####  / \######\  \######\  $$  __$$\ $$  __$$ |$$ |  $$ |$$  _____|\____$$\\_$$  _|  $$ |$$  __$$\ $$  __$$\ 
+    <link rel="stylesheet" href="global.css" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <pre>
+##\   ##\  ######\   ######\                  &$\                               &$\     &$\
+## |  ## |##  __##\ ##  __##\                 $$ | Version 0.3.1 - by AJ00200  $$ |    \__| GNU GPL v3
+\##\ ##  |## /  \__|## /  \__| &$$$$$\   &$$$$$$ |&$\   &$\  &$$$$$$\ &$$$$$\ &$$$$$\   &$\  &$$$$$\  &$$$$$$\
+ \####  / \######\  \######\  $$  __$$\ $$  __$$ |$$ |  $$ |$$  _____|\____$$\\_$$  _|  $$ |$$  __$$\ $$  __$$\
  ##  ##<   \____##\  \____##\ $$$$$$$$ |$$ /  $$ |$$ |  $$ |$$ /      &$$$$$$ | $$ |    $$ |$$ /  $$ |$$ |  $$ |
 ##  /\##\ ##\   ## |##\   ## |$$   ____|$$ |  $$ |$$ |  $$ |$$ |     $$  __$$ | $$ |&$\ $$ |$$ |  $$ |$$ |  $$ |
 ## /  ## |\######  |\######  |\$$$$$$$\ \$$$$$$$ |\$$$$$$  |\$$$$$$$\\$$$$$$$ | \$$$$  |$$ |\$$$$$$  |$$ |  $$ |
 \__|  \__| \______/  \______/  \_______| \_______| \______/  \_______|\_______|  \____/ \__| \______/ \__|  \__|
-    </pre>
-    <link rel="stylesheet" href="global.css" type="text/css" />
-  </head>
-  <body>
-    <p>XSSeducation is a set of XSS vulnerable PHP pages for testing (and fun, don't forget the fun).</p>
-    <ul>
-      <li><a href="basicxss/">Basic XSS</a> - execute code in the page</li>
-      <li><a href="javascriptxss/">JavaScript XSS</a> - execute code in the page</li>
-      <li><a href="filteredxss/">Filtered XSS</a> - alert the credit card number</li>
-      <li><a href="chainedxss/">Chained XSS</a> - change the password to 1234, the user must NOT notice this behavior</a></li>
-    </ul>
+	   </pre>
+      <p>XSSeducation is a set of XSS vulnerable PHP pages for testing (and fun, don't forget the fun).</p>
+      <h3>Level 1</h3>
+      <ul>
+	<li><a href="basicxss/">Basic XSS</a> - execute code in the page</li>
+	<li><a href="javascriptxss/">JavaScript XSS</a> - execute code in the page</li>
+      </ul>
+      <h3>Level 2</h3>
+      <ul>
+	<li><a href="filteredxss/">Filtered XSS</a> - alert() the credit card number</li>
+      </ul>
+      <h3>Level 3</h3>
+      <ul>
+	<li><a href="chainedxss/">Chained XSS</a> - change the password to 1234, the user must NOT notice this behavior</li>
+      </ul>
+    </div>
+    <div id="side">
+      <h2>Files</h2>
+      <p>These are files you can embed in the page if you wish. Not very well documented, however.</p>
+      <ul>
+	<li><a href="files/xssed.js">files/xssed.js</a></li>
+      </ul>
+    </div>
   </body>
 </html>
